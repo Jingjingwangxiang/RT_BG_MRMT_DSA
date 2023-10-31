@@ -1,6 +1,6 @@
-This code is developed to explore the microbial-catalyzed denitrification processes in a woodchip bioreactor at the Kiruna pilot site. It was developed based on the previous code RT_MRMT_DSA which can be freely download from https://github.com/Jingjingwangxiang/RT_MRMT_DSA. 
+This code is developed to explore the microbial-catalyzed denitrification processes in a woodchip bioreactor at the Kiruna pilot site. It was developed based on the previous code RT_MRMT_DSA which can be freely downloaded from https://github.com/Jingjingwangxiang/RT_MRMT_DSA. 
 
-It has been published on Journal of Hydrology on June 2023, with a manuscript titled "Multirate mass transfer simulation of denitrification in a woodchip bioreactor", you are warmly welcom to visit it through the website https://doi.org/10.1016/j.jhydrol.2023.129863. 
+It was published in the Journal of Hydrology on June 2023, with a manuscript titled "Multirate mass transfer simulation of denitrification in a woodchip bioreactor", you are warmly welcome to visit it through the website https://doi.org/10.1016/j.jhydrol.2023.129863. 
 
 Developer: Jingjing Wang
 
@@ -24,6 +24,6 @@ Compiler: Intel oneAPI 2022
 
 Library: Intel Math Kernel Library (Intel® MKL).
 
-To solve the system equation (14), we call routine dgbtrf() to compute the LU factorization of the left hand side matrix of system equation (14), then we call routine dgbtrs() to solve the linear system with the LU-factored square coefficient matrix returned by routine dgbtrf().
+To solve the system equation (14), we call routine dgbtrf() to compute the LU factorization of the left-hand side matrix of system equation (14), then we call routine dgbtrs() to solve the linear system with the LU-factored square coefficient matrix returned by routine dgbtrf().
 
-Details on how to access the open-source code: the source code can be freely download from GitHub on the public repository https://github.com/Jingjingwangxiang/RT_MRMT_DSA_BG.git 
+Details on how to access the open-source code: the source code can be freely downloaded from GitHub on the public repository https://github.com/Jingjingwangxiang/RT_MRMT_DSA_BG.git 
